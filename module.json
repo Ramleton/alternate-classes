@@ -1,0 +1,44 @@
+{
+  "id": "alternate-classes",
+  "title": "Alternate Classes",
+  "version": "1.0.0",
+  "manifest": "https://github.com/Ramleton/alternate-classes/releases/latest/download/module.json",
+  "download": "https://github.com/Ramleton/alternate-classes/releases/download/1.0.0/module.zip",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "ActiveAuras",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dae",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Ramleton",
+      "discord": "echan_",
+      "flags": {}
+    }
+  ]
+}
