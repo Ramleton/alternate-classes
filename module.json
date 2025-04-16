@@ -40,5 +40,40 @@
       "discord": "echan_",
       "flags": {}
     }
+  ],
+  "packs": [
+    {
+      "name": "alternate-classes",
+      "label": "Alternate Classes",
+      "path": "packs/alternate-classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "alternate-feats",
+      "label": "Alternate Feats",
+      "path": "packs/alternate-feats",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "description-journal",
+      "label": "Description Journal",
+      "path": "packs/description-journal",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
   ]
 }
